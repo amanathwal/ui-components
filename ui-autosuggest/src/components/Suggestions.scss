@@ -1,0 +1,22 @@
+strong {
+    background-color: rgb(255, 254, 170);
+}
+
+.ui-suggestions {
+    width: 20vw;
+    min-width: 180px;
+    padding: 0;
+    border: 1px solid #c6c7c9;
+    border-radius: 4px;
+
+    li {
+        list-style-type: none;
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0,0,0,0.07);
+        }
+    }
+
+}
